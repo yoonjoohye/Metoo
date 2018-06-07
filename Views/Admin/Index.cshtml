@@ -1,0 +1,32 @@
+﻿@using ME_TOO.Models
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <a href="Candidate"><button>후보등록</button></a><br />
+    <a href="Student"><button>인원관리</button></a><br />
+    <a href="Key"><button>암호키발급</button></a><br />
+    <a href="Result"><button>결과</button></a><br />
+    <a href="Clear"><button>초기화</button></a><br />
+
+    <table border>
+        <tr>
+            <td>암호키</td>
+        </tr>
+        @foreach (CUser iter in ViewBag.theUsers)
+        {
+            <tr>
+                <td>@iter.key</td>
+            </tr>
+        }
+    </table>
+</body>
+</html>

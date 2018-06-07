@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Metoo_Key">
+  <DataContextMoniker Name="/Metoo_KeyDataContext" />
+  <nestedChildShapes>
+    <classShape Id="dfa79386-9e7f-4965-bc99-dcc0d46f9e6b" absoluteBounds="1.125, 2.125, 2, 1.0016910807291668">
+      <DataClassMoniker Name="/Metoo_KeyDataContext/Metoo_Key" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6e37a9d6-2cb9-4ee3-881f-609dc1da3bdf" absoluteBounds="1.1400000000000001, 2.585, 1.9700000000000002, 0.44169108072916669" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

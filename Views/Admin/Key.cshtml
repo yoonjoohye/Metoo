@@ -1,0 +1,34 @@
+﻿@model ME_TOO.Models.CUser
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Key</title>
+</head>
+<body>
+    @{
+        var chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+        var stringChars = new char[20];
+        var random = new Random();
+
+        for (int i = 0; i < stringChars.Length; i++)
+        {
+            stringChars[i] = chars[random.Next(chars.Length)];
+        }
+        var finalString = new String(stringChars);
+    }
+    <script>
+        function process() {
+            document.getElementById("key").value="@finalString";
+        }
+    </script>
+    <input type="text" id="key"/>
+    @Html.TextBoxFor(x => x.key, new { style="width:150px;"})
+    <input type="button" value="생성" onclick="process()">
+</body>
+</html>

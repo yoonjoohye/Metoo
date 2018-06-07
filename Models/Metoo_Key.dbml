@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Mirim2018" Class="Metoo_KeyDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=14.63.199.209,5433;Initial Catalog=Mirim2018;Persist Security Info=True;User ID=mirim2018" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="Mirim2018ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Metoo_Key" Member="Metoo_Key">
+    <Type Name="Metoo_Key">
+      <Column Name="[key]" Member="key" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
